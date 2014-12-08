@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="mathtool">
+      <UniqueIdentifier>{9ecac02a-dbad-4588-92f1-b3ac75fc6f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modelgraph">
+      <UniqueIdentifier>{8a365b36-ad6c-4ef4-9c39-ecb13c54edc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL">
+      <UniqueIdentifier>{2dc3efee-b2a3-487c-a34a-70000d791738}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mathtool\Basic.cpp">
+      <Filter>mathtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mathtool\Quaternion.cpp">
+      <Filter>mathtool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modelgraph\ModelEdge.cpp">
+      <Filter>modelgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modelgraph\ModelGraph.cpp">
+      <Filter>modelgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\modelgraph\ModelNode.cpp">
+      <Filter>modelgraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GL\gli.cpp">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raytracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\mathtool\Basic.h">
+      <Filter>mathtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mathtool\Matrix.h">
+      <Filter>mathtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mathtool\Point.h">
+      <Filter>mathtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mathtool\Quaternion.h">
+      <Filter>mathtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mathtool\Vector.h">
+      <Filter>mathtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modelgraph\ModelEdge.h">
+      <Filter>modelgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modelgraph\ModelGraph.h">
+      <Filter>modelgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\modelgraph\ModelNode.h">
+      <Filter>modelgraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mathtool\DualQuaternion.h">
+      <Filter>mathtool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GL\gli.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GL\gliLight.h">
+      <Filter>GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\raytracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

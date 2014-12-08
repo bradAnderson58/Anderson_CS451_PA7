@@ -1,0 +1,80 @@
+#
+# Each model can be controlled with the following paramters
+#
+#-----------------------------------------------------------------------------
+# for sphere
+#
+# "tx"    : translate in x axis 
+# "ty"    : translate in y axis
+# "tz"    : translate in z axis
+#
+# "cr"    : red component of diffuss color (default is 1)
+# "cg"    : green component of diffuss color (default is 1)
+# "cb"    : blue component of diffuss color (default is 1)
+# 
+# "sr"    : red component of specular color (default is 1)
+# "sg"    : green component of specular color (default is 1)
+# "sb"    : blue component of specular color (default is 1)
+# "shininess" : controls how shiny this model is (default is 128)
+#
+# "er"    : red component of emission color (default is 0)
+# "eg"    : green component of emission color (default is 0)
+# "eb"    : blue component of emission color (default is 0)
+#
+# "Tr"    : red component of Transparency color (default is 0)
+# "Tg"    : green component of Transparency color (default is 0)
+# "Tb"    : blue component of Transparency color (default is 0)
+# "RI"    : refractive_index (default is 1)
+#
+# "Rr"    : red component of reflectiveness color (default is 0)
+# "Rg"    : green component of reflectiveness color (default is 0)
+# "Rb"    : blue component of reflectiveness color (default is 0)
+#
+# -----------------------------------------------------------------------------
+# 
+#
+# -----------------------------------------------------------------------------
+# for model
+#
+# "tx"    : translate in x axis 
+# "ty"    : translate in y axis
+# "tz"    : translate in z axis
+# "rx"    : rotate around x axis
+# "ry"    : rotate around y axis
+# "rz"    : rotate around z axis
+# "scale" : uniform scaling
+#
+# "cr"    : red component of diffuss color (default is 1)
+# "cg"    : green component of diffuss color (default is 1)
+# "cb"    : blue component of diffuss color (default is 1)
+# 
+# "sr"    : red component of specular color (default is 1)
+# "sg"    : green component of specular color (default is 1)
+# "sb"    : blue component of specular color (default is 1)
+# "shininess" : controls how shiny this model is (default is 128)
+#
+# "er"    : red component of emission color (default is 0)
+# "eg"    : green component of emission color (default is 0)
+# "eb"    : blue component of emission color (default is 0)
+#
+# -----------------------------------------------------------------------------
+# 
+# -----------------------------------------------------------------------------
+# for image
+#
+# two positive integer numbers follow: width and height
+# by default they are both 100
+# "width"   : width of the image (default is 100)
+# "height"  : height of the image (default is 100)
+# "n"       : number of rays per pixel (default is 10)
+
+image 1
+n=100 width=400 height=400 
+
+model 2 
+models/box.obj  ty=-10 tx=30 ry=3.14 scale=1.25 cg=.5 cr=1 cb=0.5 
+models/light.obj  tx=-15 ty=60 tz=10 er=1.0 eg=1.0 eb=1.0 scale=10
+
+sphere 2 #one transparent ball and one mirror-like ball
+cr=0.5 cg=0; cb=0.5 tx=-15 ty=5 r=10 RI=1.5 Tr=0.5 Tg=0.5 Tb=0.5
+cr=0.5 cg=0; cb=0.5 tx=15  tz=-10 r=10 Rr=0.5 Rg=0.5 Rb=0.5

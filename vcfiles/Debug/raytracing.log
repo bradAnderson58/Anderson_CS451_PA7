@@ -1,0 +1,37 @@
+﻿Build started 12/8/2014 1:07:04 PM.
+     1>Project "C:\CS 451\cs451-PA7\vcfiles\raytracing.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I../mathtool /I../modelgraph /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D FREEGLUT_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /D WIN32 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\raytracer.cpp
+         raytracer.cpp
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(37): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(201): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(202): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(204): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(211): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(304): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(310): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(315): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(321): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(477): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(549): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(550): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(551): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(586): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(587): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cs 451\cs451-pa7\raytracer.cpp(581): warning C4715: 'RayTracer::save2file' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\CS 451\cs451-PA7\vcfiles\Debug\raytracing.exe" /INCREMENTAL /NOLOGO /LIBPATH:../GL glew32sd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\CS 451\cs451-PA7\vcfiles\Debug\raytracing.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\CS 451\cs451-PA7\vcfiles\Debug\raytracing.lib" /MACHINE:X86 Debug\gli.obj
+         Debug\main.obj
+         Debug\Basic.obj
+         Debug\Quaternion.obj
+         Debug\model.obj
+         Debug\ModelEdge.obj
+         Debug\ModelGraph.obj
+         Debug\ModelNode.obj
+         Debug\raytracer.obj
+         raytracing.vcxproj -> C:\CS 451\cs451-PA7\vcfiles\Debug\raytracing.exe
+     1>Done Building Project "C:\CS 451\cs451-PA7\vcfiles\raytracing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.96
